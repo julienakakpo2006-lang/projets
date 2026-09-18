@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 5px;
+    gap: 850px;
+}
+body{
+    background-color: #001619;
+}
+.logo{
+    color: #F9BD27;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+     
+}
+a{
+    padding: 10px 15px; 
+    color: #FEFBF3;
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 19px;
+}
+.menu a:hover{
+    border: 1px solid transparent;
+    background-color: #F9BD27;
+    animation: 5s;
+    border-radius: 15px;
+    color: #001619;
+}
+.description{
+    margin-top: 180px;
+    margin-left: 9px;
+    color:white;
+}
+h1{
+    
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    padding: 5px 10px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #F9BD27;
+}
+p{
+    font-size:25px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    margin: 20px 30px;
+    gap: 70px;
+}
+.button input{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight:bold ;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #F9BD27;
+}
+.tof{
+    position: absolute;
+    left: 970px;
+    bottom: 130px;
+}
+img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 30px #F9BD27;
+    border-radius: 50%;
+}
+.reseaux{
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 190px;
+}
+ion-icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+}
+
+
+
