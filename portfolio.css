@@ -101,7 +101,7 @@ ion-icon{
     height: 50px;
     border: 1px solid transparent;
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 468px) {
     .description{
         margin-top: 300px;
         margin-left: 5px;
